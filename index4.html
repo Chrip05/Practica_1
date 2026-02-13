@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi tercera página web responsive</title>
+</head>
+
+<style>
+
+  body{
+            margin: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1,5;
+        }
+        header, nav, main, footer {
+            padding: 15px;
+        }
+        header{
+            background-color: #4d5258;
+            color: white;
+        }
+         nav{
+            background-color: #e2eafc;
+
+        }
+        footer{
+            background-color: #4d5258;
+            color: white;
+            text-align: center;
+        }
+
+        .wrap{
+            max-width: 900px; 
+            margin: auto;
+            gap: 5px;
+          
+         
+            
+        }
+        nav a{
+            display: inline-block;
+            margin: 5px 10px 5px 0;
+            padding: 8px 10px;
+            background-color: white;
+            border: 1px solid #ddd;
+            text-decoration: none;
+            color: #113;
+        }
+        .caja{
+            background: #fafafa;
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin: 15px 0;
+        }
+        main div{
+              display: flex;
+              
+        }
+
+         img{
+           max-width: 100%;
+           height: auto;
+           display: block;
+        }
+
+
+
+
+</style>
+
+
+<body>
+
+    <header>
+        <div class="wrap">
+            <h1>Mi web responsive Xavier Bernal</h1>
+            <p>Esto funciona bien en el movil casi sin usar </p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="wrap">
+            <a href="#">Inicio</a>
+            <a href="#">Productos</a>
+            <a href="#">Galería</a>
+            <a href="#">Contactos</a>
+        </div>
+    </nav>
+
+    <main>
+        <div class="wrap">
+            <section class="caja">
+                <h2 >Sección A</h2>
+                <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil, deserunt harum. Neque voluptate sapiente, voluptates ducimus pariatur illo, ad quos dolorem minima optio, accusantium praesentium earum labore quasi suscipit harum.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam obcaecati officia eveniet eaque, libero deleniti recusandae possimus maiores enim vitae officiis quasi quis sint nesciunt qui! Accusamus at voluptatum a.</p>
+                <img src="https://img.freepik.com/premium-photo/sea-turtle-frontal-view-isolation_1013395-4705.jpg" alt="Tortuga">
+            </section>   
+            
+            <section class="caja">
+                <h2> Sección B</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat, odit cumque! Deserunt sed dolorum, perferendis quod iste aliquam sint voluptatem qui, doloribus repudiandae voluptas! Libero ad iusto veritatis porro reiciendis!</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa doloribus laborum rerum explicabo incidunt alias vero eum tempore, distinctio molestiae hic fugiat asperiores omnis reprehenderit voluptatum nisi possimus excepturi sed!</p>
+                <img src="https://www.officedepot.com.mx/medias/11050.jpg-1200ftw?context=bWFzdGVyfHJvb3R8MjA1NzAwfGltYWdlL2pwZWd8YUdRMUwyaGtZaTg1TlRZMk5qQTFNVEUxTkRJeUxtcHdad3w4MTlkYjkzY2Q2NWNmNDM5MGM1ZDQ4OTNhZTZhODJmNmI3OTNmNWQzNTkxZTBjOTczNGZhZjZkMzhhZDY5Y2Qw" alt="Cuaderno">
+           </section>
+            
+        </div>
+    </main>
+
+    <footer>
+        <div class="wrap"> 
+            <p> 0 2026 - Ejemplo básico responsive</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
